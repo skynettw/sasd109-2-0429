@@ -1,0 +1,13 @@
+請選擇一個你喜歡的大詩人：
+<select>
+{% for name in names %}
+	<option value="{{ name }}">{{ name }}</option>
+{% endfor %}
+</select>
+<br>
+請選擇你的出生年：
+<select>
+{% for year in years %}
+	<option value="{{ year }}">{{ year }}</option>
+{% endfor %}
+</select>
